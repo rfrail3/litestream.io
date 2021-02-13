@@ -5,10 +5,10 @@ layout: docs
 ---
 
 Litestream is a streaming replication tool for SQLite databases. It runs as a
-separate background process and continuously copies write-ahead log pages from
-disk to one or more replicas. This asynchronous replication provides disaster
-recovery similar to what is available with database servers like Postgres or
-MySQL.
+separate background process and, after enable WAL mode on DB file, continuously
+copies write-ahead log pages from disk to one or more replicas. This asynchronous
+replication provides disaster recovery similar to what is available with database
+servers like Postgres or MySQL.
 
 
 ## Understanding the WAL
